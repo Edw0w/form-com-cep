@@ -10,12 +10,16 @@ function get_endereco($cep)
 $endereco = get_endereco($_POST["txtCEP"]);
 echo "Rua: $endereco->logradouro";
 echo "<br/>";
-echo "";
-echo "";
-echo "";
-echo "";
-echo "";
-echo "";
+echo "Complemento: $endereco->complemento";
+echo "<br/>";
+echo "Bairro: $endereco->bairro";
+echo "<br/>";
+echo "Cidade: $endereco->localidade";
+echo "<br/>";
+echo "Estado: $endereco->uf";
+echo "<br/>";
+echo "<br/>";
+
 
 
 
