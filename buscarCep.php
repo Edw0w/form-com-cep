@@ -1,3 +1,4 @@
+<?php
 function get_endereco($cep)
 {
     //formatar CEP 
@@ -7,3 +8,15 @@ function get_endereco($cep)
     return $xml;
 }
 $endereco = get_endereco($_POST["txtCEP"]);
+echo "Rua: $endereco->logradouro";
+echo "<br/>";
+echo "";
+echo "";
+echo "";
+echo "";
+echo "";
+echo "";
+
+
+
+?>
